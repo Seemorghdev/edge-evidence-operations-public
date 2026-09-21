@@ -1,0 +1,24 @@
+{
+  "command": {
+    "canonical_identity": "sha256",
+    "first_decision": "authorized",
+    "second_decision": "duplicate_rejected",
+    "second_execution_attempts": 0
+  },
+  "evidence": {
+    "artifact_count": 4,
+    "readback_verified": true,
+    "retention_days": 14
+  },
+  "execution": {
+    "outcome": "success",
+    "retry_authorized": false,
+    "rollback_performed": false
+  },
+  "status": "pass",
+  "validator": {
+    "classification": "gke_inventory_ready_no_cluster",
+    "future_action_authority": "all_false",
+    "status": "ready"
+  }
+}
